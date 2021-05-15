@@ -1,0 +1,647 @@
+/* defolt css*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.left {
+    float: left;
+
+}
+
+.right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+
+}
+
+.mid-content {
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+spam,
+p,
+a {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.mau-bar {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.logo {
+    width: 35%;
+    height: 50px;
+}
+
+.logo spam img {
+    float: left;
+    width: 60px;
+    margin-top: 10px;
+}
+
+.logo h3 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 70px;
+
+}
+
+.fols {
+    margin-bottom: 10px;
+}
+
+.manu {
+    width: 47%;
+    margin-top: 6px;
+}
+
+.manu ul li {
+    list-style: none;
+    float: left;
+    padding: 15px;
+    font-size: 23px;
+    position: relative;
+}
+
+.manu ul li a {
+    display: block;
+    color: black;
+}
+
+.manu ul li ul {
+
+    width: 250px;
+    font-size: 22px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    visibility: hidden;
+    opacity: 0px;
+    float: left;
+    transition: .6s;
+    transform-origin: top center;
+    transform: scaleY(0)
+}
+
+.manu ul li ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.manu ul li:hover ul {
+    visibility: visible;
+    opacity: 1px;
+    background: white;
+    transform: scaleY(1)
+}
+
+.manu ul li ul li a {
+
+    border-bottom: .1px solid black;
+    display: inline-block;
+}
+
+.bottom {
+    padding: 17px 41px;
+    border: 1px solid #6278df;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 12px;
+    display: inline-block;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .2);
+}
+
+.bottom:hover {
+    background-color: #4b74e6;
+}
+
+.baner-section {
+    background: url(https://i.ibb.co/HphGz5z/mbr-4.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    margin-bottom: 50px;
+    color: white;
+    width: 100%;
+
+}
+
+.banar-bottom {
+    background: #F7F9FF;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.bc {
+    background-color: #fcfcfc;
+
+    border-color: #fcfcfc;
+
+}
+
+.bc a {
+    color: #7d7d7d;
+}
+
+.midConten {}
+
+.vedio-left {
+    width: 45%;
+    height: auto;
+}
+
+.vedio-left iframe {
+    height: 400px;
+    margin-top: 150px;
+}
+
+.text {
+    width: 43%;
+    margin-left: 150px;
+
+
+}
+
+.text h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+
+}
+
+.text p {
+    font-size: 35px;
+    font-weight: 200;
+
+
+
+
+}
+
+
+.content h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.content h5 {
+    font-size: 30px;
+    margin: 50px 0;
+    font-weight: 200;
+}
+
+.about-section {
+    margin-top: 100px;
+
+}
+
+.serveses {
+    width: 30%;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 45px;
+    margin-right: 30px;
+    height: 400px;
+}
+
+.icon {
+    float: left;
+    min-height: 300px;
+    /* width: 26px; */
+    font-size: 40px;
+    color: #7b38ee;
+}
+
+.text-content {
+    margin-left: 100px;
+
+}
+
+.text-content h3 {
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.text-content p {
+    font-size: 35px;
+    font-weight: 200;
+
+}
+
+
+
+
+.pricing-section {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    padding: 50px;
+    background: #f7f9ff;
+}
+
+.pricing {
+    width: 29%;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2);
+    margin-left: 30px;
+    box-sizing: border-box;
+    padding: 35px;
+    margin-top: 100px;
+    background: #fff;
+}
+
+.pricing:hover .pric {
+    background-color: #6278df;
+    color: white;
+
+}
+
+.pric {
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: auto;
+
+}
+
+.priclist ul li span {
+    color: #6278df;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+.pric h4 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.pric h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.pric h5 {
+    font-size: 29px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.pric p {
+    font-size: 25px;
+    margin-bottom: 40px;
+
+}
+
+
+.priclist ul li {
+    list-style: none;
+    font-size: 27px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.temsection {
+    width: 100%
+}
+
+.member {
+    width: 21%;
+    margin: 20px;
+
+
+}
+
+.member img {
+    width: 100%;
+    border-top: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.member h6 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.member p {
+    font-size: 25px;
+    margin: 19px;
+}
+
+.heading h2 {
+    font-size: 48px;
+    margin: 108px 0;
+    font-weight: 600;
+}
+
+.email-type input {
+    float: left;
+    font-size: 37px;
+    margin-top: 12px;
+    padding: 0 1;
+    width: 357px;
+    height: 64px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.email-type {
+    width: 796px;
+    margin: auto;
+}
+
+.email {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    background: #f7f9ff;
+}
+
+
+
+
+.blog-section {
+    width: 100%;
+    background: white;
+    margin: 20px;
+    padding: 70px 0;
+}
+
+.blog-title {
+    width: 100%;
+    margin: 120px 0;
+}
+
+.blog-head {
+    width: 40%;
+}
+
+.blog-head h2 {
+    font-size: 60px;
+    padding: 34px;
+
+    font-weight: 500;
+}
+
+.blog-head2 {
+    width: 50%;
+    /* margin: auto; */
+    font-size: 30px;
+    /* padding: 48px; */
+    margin-left: 39px;
+    color: #767676;
+}
+
+.blog-head2 p {
+    margin-left: 86px;
+}
+
+.blog-content {
+    width: 100%;
+
+}
+
+.firstcontent {
+    width: 48%;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.firstcontent img {
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+
+    height: 252px;
+}
+
+.cont h5 {
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.cont h4 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+
+
+.user-feedback-section {
+    width: 100%;
+    background: #f7f9ff;
+    margin: 50px;
+    padding: 40px 0;
+}
+
+.feedback {
+    width: 33%;
+
+}
+
+.u-text {
+    width: 88%;
+    margin: 40px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    padding: 80px;
+    background: white;
+    position: relative;
+}
+
+.u-text::after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #ffffff transparent transparent transparent;
+}
+
+
+.u-text p {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    color: #767676;
+    position: relative;
+}
+
+.u-text p i {
+
+    float: left;
+    font-size: 120px;
+    position: absolute;
+    opacity: .15;
+    left: -17px;
+    top: -4px;
+
+}
+
+.u-information {
+    width: 99%;
+    margin: 80px;
+
+}
+
+.u-information img {
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 50px;
+    margin-right: 20px;
+
+}
+
+.u-information h4 {
+
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.u-information p {
+    font-size: 20px;
+    margin-top: 16px;
+
+
+}
+
+.contact-sectin {
+    width: 100%;
+    margin: 30px 0px;
+    background-color: white;
+
+}
+
+.map {
+    width: 50%;
+    margin-right: 35px;
+
+
+}
+
+.from {
+    width: 47%;
+}
+
+.from h5 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 45px 0;
+}
+
+.from p {
+    font-size: 38px;
+    font-weight: 300;
+    margin: 74px 0;
+}
+
+.email2 {
+    width: 82%;
+
+
+}
+
+.Name {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.phone {
+    width: 40%;
+}
+
+.massege {
+    width: 82%;
+    height: 200px;
+    font-size: 30px;
+}
+
+.btn2 {
+    width: 70%;
+}
+
+input {
+    height: 85px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1) border: .5px solid #e4e4e4;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 100;
+    background: white;
+}
+
+.map iframe {
+    height: 1076px;
+}
+
+.futer p {
+    font-size: 30px;
+    margin-top: 90px;
+}
